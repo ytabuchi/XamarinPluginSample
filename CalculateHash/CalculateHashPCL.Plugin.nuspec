@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Plugin.CalculateHash</id>
+		<version>1.0.0</version>
+		<title>CalculateHash Plugin for Xamarin and Windows</title>
+		<authors>Your Name</authors>
+		<owners>Your Name</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.CalculateHash.Abstractions.pdb" />		
+		
+		<!--dotnet-->
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.dll" target="lib\dotnet\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.xml" target="lib\dotnet\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash\bin\Release\Plugin.CalculateHash.pdb" target="lib\dotnet\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\dotnet\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\dotnet\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\dotnet\Plugin.CalculateHash.Abstractions.pdb" />
+		
+		<!--Win Phone Silverlight-->
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.dll" target="lib\wp8\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.xml" target="lib\wp8\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.pdb" target="lib\wp8\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\wp8\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\wp8\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wp8\Plugin.CalculateHash.Abstractions.pdb" />
+		
+		<!--Win Phone 81-->
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.dll" target="lib\wpa81\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.xml" target="lib\wpa81\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.pdb" target="lib\wpa81\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\wpa81\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\wpa81\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wpa81\Plugin.CalculateHash.Abstractions.pdb" />
+		
+		<!--WinStore-->
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.dll" target="lib\win8\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.xml" target="lib\win8\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.pdb" target="lib\win8\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\win8\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\win8\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\win8\Plugin.CalculateHash.Abstractions.pdb" />
+
+		<!--Xamarin.Android-->
+		<file src="CalculateHash\Plugin.CalculateHash.Android\bin\Release\Plugin.CalculateHash.dll" target="lib\MonoAndroid10\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Android\bin\Release\Plugin.CalculateHash.xml" target="lib\MonoAndroid10\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Android\bin\Release\Plugin.CalculateHash.pdb" target="lib\MonoAndroid10\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\MonoAndroid10\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\MonoAndroid10\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.CalculateHash.Abstractions.pdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="CalculateHash\Plugin.CalculateHash.iOS\bin\iPhone\Release\Plugin.CalculateHash.dll" target="lib\Xamarin.iOS10\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.iOS\bin\iPhone\Release\Plugin.CalculateHash.xml" target="lib\Xamarin.iOS10\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.CalculateHash.Abstractions.xml" />
+
+		<!--uap-->
+		<file src="CalculateHash\Plugin.CalculateHash.UWP\bin\Release\Plugin.CalculateHash.dll" target="lib\UAP10\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.UWP\bin\Release\Plugin.CalculateHash.xml" target="lib\UAP10\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.UWP\bin\Release\Plugin.CalculateHash.pdb" target="lib\UAP10\Plugin.CalculateHash.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\UAP10\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\UAP10\Plugin.CalculateHash.Abstractions.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\UAP10\Plugin.CalculateHash.Abstractions.pdb" />
+		
+		<!--Xamarin.Mac
+		<file src="CalculateHash\Plugin.CalculateHash.Mac\bin\iPhone\Release\Plugin.CalculateHash.dll" target="lib\Xamarin.Mac20\Plugin.CalculateHash.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Mac\bin\iPhone\Release\Plugin.CalculateHash.xml" target="lib\Xamarin.Mac20\Plugin.CalculateHash.xml" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.CalculateHash.Abstractions.dll" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\Xamarin.Mac20\Plugin.CalculateHash.Abstractions.xml" />
+        -->
+	</files>
+</package>
