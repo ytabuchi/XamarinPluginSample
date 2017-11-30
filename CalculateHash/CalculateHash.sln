@@ -15,6 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.CalculateHash.UWP", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6D7CE8D-F982-432B-A4BB-3BD9584FBB35}"
 	ProjectSection(SolutionItems) = preProject
+		CalculateHashNetStandard.Plugin.nuspec = CalculateHashNetStandard.Plugin.nuspec
 		CalculateHashPCL.Plugin.nuspec = CalculateHashPCL.Plugin.nuspec
 	EndProjectSection
 EndProject
