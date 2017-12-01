@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
-		<id>Plugin.CalculateHash</id>
-		<version>1.0.0</version>
+		<id>Plugin.CalculateHash.PCL</id>
+		<version>1.0.0-pre</version>
 		<title>CalculateHash Plugin for Xamarin and Windows</title>
-		<authors>Your Name</authors>
-		<owners>Your Name</owners>
-		<licenseUrl/>
-		<projectUrl/>
+		<authors>Yoshito Tabuchi</authors>
+		<owners>Yoshito Tabuchi</owners>
+    <licenseUrl>https://github.com/ytabuchi/XamarinPluginSample/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ytabuchi/XamarinPluginSample</projectUrl>
 		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
-		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+		<iconUrl>https://blog.xamarin.com/wp-content/uploads/2015/07/plugin_icon_nuget.png</iconUrl>
 
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
          Long description for your plugin.
 		</description>
 		<summary>Short description for your plugin.</summary>
-		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, android, xamarin.forms, ios</tags>
 		<dependencies>
 			<group targetFramework="net">
 			</group>
-			<group targetFramework="win">
+			<!--<group targetFramework="win">
 			</group>
 			<group targetFramework="wp">
 			</group>
 			<group targetFramework="wpa">
-			</group>
+			</group>-->
 			<group targetFramework="MonoAndroid">
 			</group>
 			<group targetFramework="Xamarin.iOS10">
 			</group>
-			<group targetFramework="Xamarin.Mac20">
-			</group>
+			<!--<group targetFramework="Xamarin.Mac20">
+			</group>-->
 			<group targetFramework="portable-net45+win+wpa81+wp80">
 			</group>
 			<group targetFramework="uap">
@@ -58,28 +58,28 @@
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\dotnet\Plugin.CalculateHash.Abstractions.pdb" />
 		
 		<!--Win Phone Silverlight-->
-		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.dll" target="lib\wp8\Plugin.CalculateHash.dll" />
+		<!--<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.dll" target="lib\wp8\Plugin.CalculateHash.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.xml" target="lib\wp8\Plugin.CalculateHash.xml" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone8\bin\Release\Plugin.CalculateHash.pdb" target="lib\wp8\Plugin.CalculateHash.pdb" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\wp8\Plugin.CalculateHash.Abstractions.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\wp8\Plugin.CalculateHash.Abstractions.xml" />
-		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wp8\Plugin.CalculateHash.Abstractions.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wp8\Plugin.CalculateHash.Abstractions.pdb" />-->
 		
 		<!--Win Phone 81-->
-		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.dll" target="lib\wpa81\Plugin.CalculateHash.dll" />
+		<!--<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.dll" target="lib\wpa81\Plugin.CalculateHash.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.xml" target="lib\wpa81\Plugin.CalculateHash.xml" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsPhone81\bin\Release\Plugin.CalculateHash.pdb" target="lib\wpa81\Plugin.CalculateHash.pdb" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\wpa81\Plugin.CalculateHash.Abstractions.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\wpa81\Plugin.CalculateHash.Abstractions.xml" />
-		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wpa81\Plugin.CalculateHash.Abstractions.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\wpa81\Plugin.CalculateHash.Abstractions.pdb" />-->
 		
 		<!--WinStore-->
-		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.dll" target="lib\win8\Plugin.CalculateHash.dll" />
+		<!--<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.dll" target="lib\win8\Plugin.CalculateHash.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.xml" target="lib\win8\Plugin.CalculateHash.xml" />
 		<file src="CalculateHash\Plugin.CalculateHash.WindowsStore\bin\Release\Plugin.CalculateHash.pdb" target="lib\win8\Plugin.CalculateHash.pdb" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.dll" target="lib\win8\Plugin.CalculateHash.Abstractions.dll" />
 		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.xml" target="lib\win8\Plugin.CalculateHash.Abstractions.xml" />
-		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\win8\Plugin.CalculateHash.Abstractions.pdb" />
+		<file src="CalculateHash\Plugin.CalculateHash.Abstractions\bin\Release\Plugin.CalculateHash.Abstractions.pdb" target="lib\win8\Plugin.CalculateHash.Abstractions.pdb" />-->
 
 		<!--Xamarin.Android-->
 		<file src="CalculateHash\Plugin.CalculateHash.Android\bin\Release\Plugin.CalculateHash.dll" target="lib\MonoAndroid10\Plugin.CalculateHash.dll" />
